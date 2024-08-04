@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="overlay">
+        <span class="win">GAME OVER</span>
+        <button class="play__again primaryBtn">Play Again</button>
+    </div>
+    <div class="wrapper">
+        <div class="center">
+            <div class="scores">
+                <div class="score__board right">
+                    <h2>O-Score</h2>
+                    <div class="player__score first">0</div>
+                </div>
+                <div class="score__board left">
+                    <h2>X-Score</h2>
+                    <div class="player__score second">0</div>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="cell" data-index="00"></div>
+                <div class="cell" data-index="01"></div>
+                <div class="cell" data-index="02"></div>
+                <div class="cell" data-index="10"></div>
+                <div class="cell" data-index="11"></div>
+                <div class="cell" data-index="12"></div>
+                <div class="cell" data-index="20"></div>
+                <div class="cell" data-index="21"></div>
+                <div class="cell" data-index="22"></div>
+            </div>
+            <span class="turn ">X's Turn</span>
+            <button class="reset primaryBtn">Reset</button>
+        </div>
+        
+        
+    </div>
+    <div class="gamehistorywrapper">
+        <div class="game-history"></div>
+        <span class="winner__message"></span>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
